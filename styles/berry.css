@@ -1,0 +1,80 @@
+table#berryMain {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+td#berryPicture {
+  height: 75%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .087);
+}
+td#berryPicture:active {
+  background-color: rgba(0, 0, 0, .178);
+}
+img#berryPicture {
+  max-height: 50%;
+  max-width: 100%;
+}
+td#berryName {
+  height: 6%;
+  width: 100%;
+  border-right: 2px solid;
+}
+select#berrySelect {
+  height: 100%;
+  width: 100%;
+}
+td#berrySell {
+  height: 19%;
+  width: 100%;
+  border-right: 2px solid;
+}
+
+table#berryUpgrade {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
+td#seedPower {
+  width: 25%;
+  height: 37.5%;
+  border-bottom: 2px solid;
+}
+td#buySeedPower {
+  width: 75%;
+  height: 37.5%;
+  border-left: 2px solid;
+}
+td#marketers {
+  width: 25%;
+  height: 37.5%;
+  border-right: 2px solid;
+}
+td#buyMarketers {
+  width: 75%;
+  height: 37.5%;
+  border-top: 2px solid;
+}
+td#buyBait {
+  width: 75%;
+  height: 12.5%;
+  border-top: 2px solid;
+  border-left: 2px solid;
+}
+td#addBait {
+  width: 25%;
+  height: 12.5%;
+  border-top: 2px solid;
+}
+td#allBait {
+  width: 75%;
+  height: 12.5%;
+  border-top: 2px solid;
+}
+td#subBait {
+  width: 25%;
+  height: 12.5%;
+  border-top: 2px solid;
+  border-right: 2px solid;
+}

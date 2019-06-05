@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0, maximum-scale=1.0">
+    <title>dab</title>
+    <link href="styles/pkmn.css" rel="stylesheet" type="text/css" />
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="styles/types.css" rel="stylesheet" type="text/css" />
+    <link href="styles/berry.css" rel="stylesheet" type="text/css" />
+    <link href="styles/pkmnmain.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id=main>
+      <div class=section id=meta>
+        <table id=metaTable>
+          <tr>
+            <td id=poke>0</td>
+            <td id=bait>bait</td>
+          </tr>
+        </table>
+      </div>
+      <div class=section id=berries>
+        <table id=berryMain>
+          <tr>
+            <td id=berryPicture>berryPicture</td>
+          </tr>
+          <tr>
+            <td id=berryName>
+              <select id=berrySelect>
+                <option value="aspear">aspear</option>
+                <option value="cheri">cheri</option>
+                <option value="chesto">chesto</option>
+                <option value="pecha">pecha</option>
+                <option value="rawst">rawst</option>
+                <option value="yache">yache</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td id=berrySell><button id=berrySell><span id=berrySell>berrySell</span></button></td>
+          </tr>
+        </table>
+        <table id=berryUpgrade>
+          <tr>
+            <td id=seedPower></td>
+            <td id=buySeedPower><button id=buySeedPower><span id=buySeedPower></span></button></td>
+          </tr>
+          <tr>
+            <td id=marketers></td>
+            <td id=buyMarketers><button id=buyMarketers><span id=buyMarketers></span></button></td>
+          </tr>
+          <tr>
+            <td id=addBait><button id=addBait><span id=addBait>+</span></button></td>
+            <td id=buyBait><button id=buyBait><span id=buyBait>Make 1 bait</span></button></td>
+          </tr>
+          <tr>
+            <td id=subBait><button id=subBait><span id=subBait>-</span></button></td>
+            <td id=allBait><button id=allBait><span id=allBait>Make All Bait</span></button></td>
+          </tr>
+        </table>
+      </div>
+      <div class=section id=pkmn>
+        <div id=pkmnMeta>
+          <div id=pkmnFullPicture></div>
+          <table id=nameNickname>
+            <td id=pkmnName></td>
+            <td id=pkmnNickname></td>
+            <td id=pkmnNature></td>
+          </table>
+          <table id=pkmnStatus>
+            <td id=pkmnStatus>status:</td>
+          </table>
+          <table id=selectRelease>
+            <td id=pkmnSelect><button id=pkmnSelect>Select Pokemon</button></td>
+            <td id=pkmnRelease><button id=pkmnRelease>Rls</button></td>
+          </table>
+        </div>
+        <div id=pkmnUpgrade>
+          <table id=pkmnLevel><td id=pkmnLevel>level: </td></table>
+          <table id=pkmnXp>
+            <td id=filledXp></td>
+            <td id=unfilledXp></td>
+          </table>
+          <table id=pkmnFeed>
+            <td id=pkmnFeed><button id=pkmnFeed>feed</button></td>
+          </table>
+          <table id=pkmnGrowing>
+            <td id=pkmnGrowing><button id=pkmnGrowing>growing</button></td>
+          </table>
+          <select id=growingBerry></select>
+          <table id=pkmnSearch>
+            <td id=pkmnSearch><button id=pkmnSearch>search</button></td>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="dex/berrydex.js"></script>
+    <script src="dex/pokedex.js"></script>
+    <script src="dex/naturedex.js"></script>
+
+    <script src="namegen.js"></script>
+    <script src="pythonic.js"></script>
+
+    <script src="classes/berry.js"></script>
+    <script src="classes/game.js"></script>
+    <script src="classes/pokemon.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

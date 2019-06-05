@@ -1,0 +1,26 @@
+input#pkmnSearchbar {
+  height: 10%;
+  width: 100%;
+}
+div#pkmnList {
+  overflow-y: scroll;
+  height: 90%;
+  width: 100%
+}
+table#pkmnModule {
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+}
+td#pkmnPicture {
+  width: 20%;
+}
+img#pkmnPicture {
+  max-height: 15%;
+  max-width: 100%;
+}
+td#info {
+  height: 100%;
+  width: 20%;
+  border-left: 2px solid;
+}
